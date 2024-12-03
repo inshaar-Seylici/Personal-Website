@@ -38,6 +38,7 @@
     padding: 10px 30px;
 
 }
+
 p{
     margin-top: 20px;
 }
@@ -48,7 +49,41 @@ p{
 }
 .footer i{
     font-size: 50px;
+    margin-right: 20px;
 }
+
+@media screen and (max-width:600px){
+
+    .header ul{
+        display: none;
+    }
+    .header h1{
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    .header i{
+        font-size: 33px;
+        margin-left: 50px;
+    }
+    .main-left {
+        width: 270px;
+    }
+
+  .main  {
+    flex-direction: column;
+ 
+
+    
+  }
+  .main img{
+   margin-left: -50px;
+   margin-top: 20px;
+  }
+  .main p{
+    font-family: ' Arial Narrow'
+  }
+}
+    
 
 
  

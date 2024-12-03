@@ -18,6 +18,9 @@
 .main-left{
     width: 500px;
 }
+.header i{
+    display:none;
+}
 .main img{
     width: 300px;
     height: 300px;
